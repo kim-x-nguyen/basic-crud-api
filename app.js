@@ -31,11 +31,11 @@ app.route("/articles")
   });
 })
 .post(function(req, res){
-  const newArticle = new Article({//Create new object and save to database
+  const newArticle = new Article({//Create new object
     title: req.body.title,
     content: req.body.content
   });
-  newArticle.save(function(err){
+  newArticle.save(function(err){//save object to database
     if(!err){
       res.send("Successfully added a new articles.");
     }else {
