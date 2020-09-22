@@ -1,5 +1,6 @@
-A basic CRUD(Create - Read - Update - Delete) RESTful API
+### A basic CRUD(Create - Read - Update - Delete) RESTful API
 ## Routing:
+
 There are two URL end points, one is "/articles" to access all articles in database and "/articles/:articleTitle" to access a specific article inside the database.
 Routing table:
 
@@ -8,15 +9,19 @@ Routing table:
 
 
 
-#Deprecation warnings from mongoose.js:
+## Deprecation warnings from mongoose.js:
+
 Because MongoDB Node.js driver rewrote the tool it uses to parse MongoDB connection strings, so
 you need to turn on the useNewUrlPartser to use their new tool.
 And because there are many changes with mongoDB Node.js driver, there will be some tools that
 won’t work anymore, and they will give deprecation warning. To turn off these warning, please check
 this url: https://mongoosejs.com/docs/deprecations.html
 
+
 ## Testing:
+
 I use Postman for HTTP requests and Robo3T to interact with database (You can use mongo shell).
+
 
 ## Re-populate Database (YOu can copy this as example data for testing in Robo3T)
 
