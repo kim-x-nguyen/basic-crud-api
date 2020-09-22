@@ -2,7 +2,12 @@ A basic CRUD(Create - Read - Update - Delete) RESTful API
 ## Routing:
 There are two URL end points, one is "/articles" to access all articles in database and "/articles/:articleTitle" to access a specific article inside the database.
 Routing table:
+
+
 ![](routing.PNG)
+
+
+
 #Deprecation warnings from mongoose.js:
 Because MongoDB Node.js driver rewrote the tool it uses to parse MongoDB connection strings, so
 you need to turn on the useNewUrlPartser to use their new tool.
