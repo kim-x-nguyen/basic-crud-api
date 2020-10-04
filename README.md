@@ -27,12 +27,6 @@ I use Postman for HTTP requests and Robo3T to interact with database (You can us
 
 ```
 
-{
-    "_id" : "5c18e1892998bdb3b3d355bf",
-    "title" : "REST",
-    "content" : "REST is short for REpresentational State Transfer. IIt's an architectural style for designing APIs."
-}
-
 
 {
     "_id" : ObjectId("5c139771d79ac8eac11e754a"),
